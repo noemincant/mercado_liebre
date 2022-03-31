@@ -95,7 +95,7 @@ header .burger-menu button {
   background-color: #6488be;
 }
 header .form .input {
-  background-color:#ecdc87 ;
+  background-color:#eac926 ;
   border: 1px solid #000;
   outline: none;
   color: #666;
@@ -120,7 +120,7 @@ div.burger-menu i {
   color: #fff;
   font-size: 20px;
   height: 40px;
-  margin: 10px 0px 20px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 10px;
   width: 40px;
 }
@@ -316,4 +316,4 @@ article div.main-article {
   body {
     max-width: 1200px;
     margin: auto;
-  }
+  }}

@@ -18,4 +18,4 @@ app.get("/register", (req, res) => {
 app.get("/login", (req, res) => {
   res.sendFile(path.resolve(__dirname, "./views/login.html"));
 });
-app.listen(4001, () => console.log("running on port 4001..."));
+app.listen(process.env.PORT || 4001, () => console.log("running on port 4001..."));
